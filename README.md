@@ -39,4 +39,4 @@ Eine UDF für die Tabellenkalkulation PlanMaker der Firma SoftMaker, mit folgend
 - _PlanMaker_UserPropertyGetAll (Gibt ein Array mit allen Benutzereigenschaften zurück)
 - _PlanMaker_UserPropertySet (Setzt eine Benutzereigenschaft)
 
-Kompatibel mit SoftMaker Office 2016 und FreeOffice 2016.
+Kompatibel mit SoftMaker Office 2018 und FreeOffice 2018.
