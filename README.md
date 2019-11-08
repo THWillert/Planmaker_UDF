@@ -50,8 +50,6 @@ Kompatibel mit SoftMaker Office 2018 und FreeOffice 2018.
 
 ## ToDo
 
-Die Reihenfolge entspricht keiner Priorität.
-
 
 ## Author
 Thorsten Willert
