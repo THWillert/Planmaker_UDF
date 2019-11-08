@@ -1,6 +1,6 @@
 # Planmaker_UDF
 
-Eine UDF für die Tabellenkalkulation PlanMaker der Firma SoftMaker, mit folgenden Funktionen:
+Eine AutoIt-UDF für die Tabellenkalkulation PlanMaker der Firma SoftMaker, mit folgenden Funktionen:
 
 ## Übersicht der Funtionen
 - _PlanMaker_BookAttach (Script mit geöffnetem PlanMaker verbinden)
