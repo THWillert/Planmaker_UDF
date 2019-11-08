@@ -2,6 +2,7 @@
 
 Eine UDF für die Tabellenkalkulation PlanMaker der Firma SoftMaker, mit folgenden Funktionen:
 
+## Übersicht der Funtionen
 - _PlanMaker_BookAttach (Script mit geöffnetem PlanMaker verbinden)
 - _PlanMaker_BookClose (PlanMaker Workbook schließen)
 - _PlanMaker_BookNew (Neues Workbook erstellen)
@@ -39,4 +40,25 @@ Eine UDF für die Tabellenkalkulation PlanMaker der Firma SoftMaker, mit folgend
 - _PlanMaker_UserPropertyGetAll (Gibt ein Array mit allen Benutzereigenschaften zurück)
 - _PlanMaker_UserPropertySet (Setzt eine Benutzereigenschaft)
 
+### Voraussetzungen
+
 Kompatibel mit SoftMaker Office 2018 und FreeOffice 2018.
+
+
+### Installation
+
+
+## ToDo
+
+Die Reihenfolge entspricht keiner Priorität.
+
+
+## Author
+Thorsten Willert
+
+[Homepage](http://www.thorsten-willert.de/)
+
+## Lizenz
+Das ganze steht unter der [Apache 2.0](https://github.com/THWillert/HomeMatic_CSS/blob/master/LICENSE) Lizenz.
+.
+
