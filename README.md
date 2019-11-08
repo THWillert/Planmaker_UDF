@@ -2,7 +2,7 @@
 
 Eine AutoIt-UDF für die Tabellenkalkulation PlanMaker der Firma SoftMaker, mit folgenden Funktionen:
 
-## Übersicht der Funtionen
+## Übersicht der Funktionen
 - _PlanMaker_BookAttach (Script mit geöffnetem PlanMaker verbinden)
 - _PlanMaker_BookClose (PlanMaker Workbook schließen)
 - _PlanMaker_BookNew (Neues Workbook erstellen)
