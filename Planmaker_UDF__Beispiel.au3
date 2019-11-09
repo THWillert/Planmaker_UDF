@@ -1,4 +1,4 @@
-#include "PlanMaker_V0.50.au3"
+#include "PlanMaker.au3"
 #include "Array.au3"
 #include "File.au3"
 
@@ -10,12 +10,12 @@ Local $oTest = _PlanMaker_BookNew(True, True)
 ; Aktualisierung ausschalten
 _PlanMaker_ScreenUpdate($oTest, False)
 
-; Zellen f‹llen
+; Zellen f√úllen
 For $i = 1 To 10
 	_PlanMaker_CellWrite($oTest, $i, $i, 1)
 Next
 
-; Formel einf‹gen
+; Formel einf√úgen
 _PlanMaker_FormulaWrite($oTest, "=Summe(A1:A10)", 12, 1)
 
 ; Schrift-Formatierung
@@ -37,7 +37,7 @@ _PlanMaker_FormatFont($oTest, "A12", $aFont)
 Local $aNumber[][] = [ _
 	["Type", $_pmNumberDecimal], _
 	["Digits", 2], _
-	["Currency", "Ä"] ]
+	["Currency", "‚Ç¨"] ]
 _PlanMaker_FormatNumber($oTest, "A1:A12", $aNumber)
 
 Local $aPage[][] = [ _
@@ -81,11 +81,11 @@ _PlanMaker_FormatShading($oTest, _PlanMaker_CellRangeByPosition(2, 3, 2, 3), $aS
 _PlanMaker_ScreenUpdate($oTest, True)
 Sleep(5000)
 
-; Zell-Bereich auslesen ‹ber Positionsangabe
+; Zell-Bereich auslesen √úber Positionsangabe
 Local $aArray = _PlanMaker_SheetToArray($oTest, 1, 1, 1, 12)
 _ArrayDisplay($aArray)
 
-; Zell-Bereich auslesen ‹ber Bereichsangabe
+; Zell-Bereich auslesen √úber Bereichsangabe
 $aArray = _PlanMaker_SheetToArray($oTest, "A1:A12")
 _ArrayDisplay($aArray)
 
