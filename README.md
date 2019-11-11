@@ -55,7 +55,9 @@ Die UDF in das Include Verzeichnis von AutoIt kopieren.
 
 ### Weiterführende Informationen
 
-[Handbuch für BasicMaker](http://www.softmaker.net/down/bm2018manual_de.pdf)
+[Handbuch für BasicMaker 2018](http://www.softmaker.net/down/bm2018manual_de.pdf) (de)
+
+[Manual for BasicMaker 2018](http://www.softmaker.net/down/bm2018manual_en.pdf) (en)
 
 ### Diskusion und Vorschläge
 
