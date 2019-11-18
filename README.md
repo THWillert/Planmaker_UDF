@@ -61,7 +61,7 @@ Die UDF in das Include Verzeichnis von AutoIt kopieren.
 
 ### Diskusion und Vorschläge
 
-[SoftMaker-Forum](https://forum.softmaker.de/viewtopic.php?f=230&t=22648)
+[SoftMaker-Forum](https://forum.softmaker.de/viewtopic.php?f=276&t=25608#p123093)
 
 [AutoIt.de](https://autoit.de/thread/85113-planmaker-udf-tabellenkalkulation-von-softmaker-office-und-freeoffice/)
 
