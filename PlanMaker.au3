@@ -1,11 +1,14 @@
 ; :wrap=none:noTabs=false:collapseFolds=0:maxLineLen=80:mode=autoitscript:tabSize=4:indentSize=4:noWordSep=_@:deepIndent=false:wordBreakChars=,+-\=<>/?^&*:folding=indent:
 #include-once
-; _PlanMaker.au3 V0.51
+; _PlanMaker.au3 V0.52
 ; Thorsten Willert
-; Sun Jan 21 13:56:31 CET 2018 @580 /Internet-Zeit/
+; Wed Nov 20 11:38:35 CET 2019 @485 /Internet-Zeit/
 ; Tested with Sofmaker-Office: Planmaker 2016, 2018 and FreeOffice
 
 #cs
+
+V0.52
+added: constants for datatypes
 
 V.51
 tested with PlanMaker 2018
@@ -207,14 +210,14 @@ Global Enum $_smoPropertyTitle = 1, _ 				 ; "Title"
 ;smoPropertyAvgCharactersSentence = 33 ' - (bei PlanMaker nicht verfÜgbar)
 ;smoPropertyAvgWordsSentence = 34 ' - (bei PlanMaker nicht verfÜgbar)
 
-#cs
-	Type
-	smoPropertyTypeBoolean = 0 ' Boolean
-	smoPropertyTypeDate = 1 ' Datum
-	smoPropertyTypeFloat = 2 ' Fliesskommawert
-	smoPropertyTypeNumber = 3 ' Ganzzahl
-	smoPropertyTypeString = 4 ' Zeichenkette
-#ce
+
+;	Type
+Global Enum	$_smoPropertyTypeBoolean = 0, _ 	; Boolean
+	$_smoPropertyTypeDate, _					; Datum
+	$_smoPropertyTypeFloat, _					; Fliesskommawert
+	$_smoPropertyTypeNumber, _					; Ganzzahl
+	$_smoPropertyTypeString						; Zeichenkette
+
 ;	Orientation
 Global Enum $_smoOrientLandscape = 0, _ ; Querformat
 	$_smoOrientPortrait;  Hochformat
@@ -298,8 +301,9 @@ Global Enum $_pmNumberGeneral = 0, _ ; Standard
 		$_pmNumberText, _ ; Text
 		$_pmNumberAccounting ; Buchhaltung (siehe Hinweis)
 
+
 #cs
-	Currency
+Currency
 	EUR Euro
 	USD US Dollar
 	CAD Kanadische Dollar
