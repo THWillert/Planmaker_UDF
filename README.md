@@ -68,7 +68,7 @@ Die UDF in das Include Verzeichnis von AutoIt kopieren.
 
 ## ToDo
 
-- [ ] Konstanten für Datentypen
+- [x] Konstanten für Datentypen
 - [ ] Konstanten für Währung
 - [ ] Beschreibung der Rückgabeparameter
 
