@@ -43,23 +43,23 @@ Eine [AutoIt](https://www.autoitscript.com/site/autoit/)-UDF für die Tabellenka
 | _PlanMaker_UserPropertyGetAll |Gibt ein Array mit allen Benutzereigenschaften zurück|
 | _PlanMaker_UserPropertySet |Setzt eine Benutzereigenschaft|
 
-### Voraussetzungen
+## Voraussetzungen
 
 Kompatibel mit SoftMaker Office 2018 und FreeOffice 2018.
 
 
-### Installation
+## Installation
 
 Die UDF in das Include Verzeichnis von AutoIt kopieren.
 
 
-### Weiterführende Informationen
+## Weiterführende Informationen
 
 [Handbuch für BasicMaker 2018](http://www.softmaker.net/down/bm2018manual_de.pdf) (de)
 
 [Manual for BasicMaker 2018](http://www.softmaker.net/down/bm2018manual_en.pdf) (en)
 
-### Diskusion und Vorschläge
+## Diskusion und Vorschläge
 
 [SoftMaker-Forum](https://forum.softmaker.de/viewtopic.php?f=276&t=25608#p123093)
 
