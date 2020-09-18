@@ -75,7 +75,7 @@ Die UDF in das Include Verzeichnis von AutoIt kopieren.
 ## Author
 Thorsten Willert
 
-[Homepage](http://www.thorsten-willert.de/)
+[Homepage](https://www.thorsten-willert.de/software/autoit/autoit-udfs/planmaker)
 
 ## Lizenz
 Das ganze steht unter der [Apache 2.0](https://github.com/THWillert/HomeMatic_CSS/blob/master/LICENSE) Lizenz
